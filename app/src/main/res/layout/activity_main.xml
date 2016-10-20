@@ -18,17 +18,14 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.5"
                 android:id="@+id/btnAra"
-                android:background="@android:drawable/ic_menu_call"
-                android:text="Arama Yap"
-                android:backgroundTint="@android:color/holo_red_light" />
+                android:background="@drawable/b1"
+                tools:ignore="ButtonStyle" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="0.5"
-                android:id="@+id/btnMesajGonder"
-                android:background="@android:drawable/ic_dialog_email"
-                android:text="Mesaj Gönder"
-                android:backgroundTint="@android:color/holo_green_dark" />
+                android:background="@drawable/b2"
+                tools:ignore="ButtonStyle" />
 
 
     </LinearLayout>
@@ -44,16 +41,15 @@
             android:layout_height="match_parent"
             android:layout_weight="0.5"
             android:id="@+id/btnKamera"
-            android:background="@android:drawable/ic_menu_camera"
-            android:text="Kamerayı aç"
-            android:backgroundTint="@android:color/darker_gray" />
+            android:background="@drawable/b3"
+            tools:ignore="ButtonStyle" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="0.5"
             android:id="@+id/btnTaksiCagir"
-            android:background="#ffeb3b"
-            android:text="Taksi çağır"/>
+            android:background="@drawable/b4"
+            tools:ignore="ButtonStyle" />
 
     </LinearLayout>
 
@@ -69,18 +65,15 @@
             android:layout_height="match_parent"
             android:layout_weight="0.5"
             android:id="@+id/btnAyarlar"
-            android:background="@android:drawable/ic_menu_preferences"
-            android:text="Ayarlar"
-            android:backgroundTint="@android:color/holo_green_light" />
+            android:background="@drawable/b5"
+            tools:ignore="ButtonStyle" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="0.5"
             android:id="@+id/btnCikis"
-            android:background="@android:drawable/ic_menu_close_clear_cancel"
-            android:text="Çıkış Yap"
-            android:textColor="#000"
-            android:backgroundTint="@android:color/black" />
+            android:background="@drawable/b6"
+            tools:ignore="ButtonStyle" />
 
     </LinearLayout>
 
